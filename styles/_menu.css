@@ -1,0 +1,31 @@
+.hamburger-menu {
+  display: none;
+  font-size: 45px;
+  cursor: pointer;
+  transition: 0.2s;
+  transform-origin: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--red);
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+.hamburger-menu.rotate {
+  transform: rotate(-90deg);
+}
+.list_single {
+  width: 200px;
+  position: relative;
+  text-align: center;
+}
+.list_single .list-lnk {
+  font-size: 22px;
+  color: var(--red) !important;
+  transition: 0.2s;
+}
+.list_single:hover .list-lnk {
+  letter-spacing: 1px;
+}
